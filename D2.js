@@ -39,7 +39,7 @@ let number2 = 20;
 
 let risultato = number1 + number2;
 
-console.log("risultato ex 3 " + risultato);
+console.log("risultato ex 3: " + risultato);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -58,7 +58,8 @@ let x = 12;
 
 name = "Vincenzo S.A.";
 const cognome = "De Pascale";
-/* cognome = "Vincenzo" */
+
+/* cognome = "Vincenzo" - questo è commentato altrimenti l'errore mi blocca la run di node*/
 
 console.log(cognome);
 
@@ -79,10 +80,8 @@ console.log(x - 4);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let name1 = "john";
-let name2 = "Jhon";
+let name2 = "John";
+console.log(name1 !== name2);
 
-console.log(name1 === name2);
-
-console.log(nome1.ToLowerCase());
-console.log(nome2.ToLowerCase());
-console.log(name1 === name2);
+name1 = name1.toLowerCase();
+console.log(name1 !== name2.toLowerCase());
