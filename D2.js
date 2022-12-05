@@ -27,6 +27,7 @@ undefined; /* serve per indicare un oggetto non ancora definito, questo succede 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let name = "Vincenzo";
+console.log("primo nome: " + name);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -61,7 +62,8 @@ const cognome = "De Pascale";
 
 /* cognome = "Vincenzo" - questo è commentato altrimenti l'errore mi blocca la run di node*/
 
-console.log(cognome);
+console.log("nome modificato: " + name);
+console.log("cognome : " + cognome);
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
@@ -69,7 +71,7 @@ console.log(cognome);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-console.log(x - 4);
+console.log("risultato ex. 6: " + (x - 4));
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
