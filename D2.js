@@ -13,10 +13,11 @@ REGOLE
 
 numero = 5; /* numero da 0 ad infinito senza doppi acipi " */
 stringa =
-  "stringa"; /* una serie di caratteri tra " possono essere lettere o numeri*/
-booleano = true; /* questo serve per capire se il risultato di un oprazione è "vera" o "falsa" */
-null; /* serve per indicare l'assenza di un oggetto */
-undefined; /* serve per indicare un oggetto non ancora definito, questo succede quando devi importare dati da siti esterni e lì non sono ancora caricati */
+  "stringa"; /* una serie di caratteri tra ". possono essere lettere o numeri*/
+booleano = true; /* questa variabile può essere "vera" o "falsa" */
+null; /* serve per indicare l'assenza di un valore */
+undefined; /* serve per indicare un oggetto non ancora definito, questo succede
+quando devi importare dati da siti esterni e lì non sono ancora caricati */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -63,7 +64,8 @@ const cognome = "De Pascale";
 /* cognome = "Vincenzo" - questo è commentato altrimenti l'errore mi blocca la run di node*/
 
 console.log("nome modificato: " + name);
-console.log("cognome : " + cognome);
+console.log("cognome:", cognome);
+console.log("nome e cognome:", name, cognome);
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
@@ -86,4 +88,4 @@ let name2 = "John";
 console.log(name1 !== name2);
 
 name1 = name1.toLowerCase();
-console.log(name1 !== name2.toLowerCase());
+console.log(name1 === name2.toLowerCase());
